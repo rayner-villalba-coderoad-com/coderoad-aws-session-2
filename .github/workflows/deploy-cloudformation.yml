@@ -1,8 +1,9 @@
 name: Create S3 bucket
-workflow_dispatch:
+
 on:
   push:
     branches: [ "main" ]
+  workflow_dispatch:  
 jobs:
   deploy:
     runs-on: ubuntu-latest

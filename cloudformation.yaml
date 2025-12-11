@@ -1,0 +1,12 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Rayner  S3 bucket
+
+Resources:
+  MyBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: rayner-coderoad-demo-bucket-12345
+
+Outputs:
+  BucketName:
+    Value: rayner-coderoad-demo-bucket-12345

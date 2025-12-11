@@ -1,4 +1,5 @@
 name: Create S3 bucket
+workflow_dispatch:
 on:
   push:
     branches: [ "main" ]
